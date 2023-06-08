@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat",sans-serif;
+}
+
+* ul{
+  list-style: none;
+}
+
+
+
+header{
+  background: url(./images/bg.jpg);
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay{
+  background-color: rgba(0,0,0,0.35);
+  height: 100%;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbarContainer{
+  display: flex;
+  height: 15%;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.logoContainer{
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoContainer img{
+  width: 40%;
+}
+
+ul{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+ul li{
+  margin: 1rem;
+  font-size: 1.1rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+
+.mainheadercontent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 85%;
+}
+
+.mainheadercontent h1{
+  font-size: 4rem;
+  color: white;
+  font-family: "Montserrat",sans-serif;
+}
+
+.mainheadercontent p{
+  color: white;
+  width: 40%;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.mainheadercontent button{
+  padding: .5rem 1rem;
+  background-color: #14BF98;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-top: 2rem;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+section{
+  height: 130vh;
+  border: 2px solid red;
+  padding: 5rem 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.upperdiv{
+  height: 50%;
+  border: 2px solid green;
+}
+
+.lowerdiv{
+  height: 50%;
+  border: 2px solid green;
+}
+
